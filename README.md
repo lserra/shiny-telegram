@@ -15,5 +15,3 @@ O cálculo do aging consiste em determinar para cada peça armazenada no estoque
   * Python 2.7.x ou superior
   * Bibliotecas Python: pymssql, MySQLdb
 
-# Architecture:
-![arq-func](/images/architecture-functional.png)
