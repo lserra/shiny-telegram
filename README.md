@@ -1,5 +1,5 @@
 # Zinzane
-Calculating Aging of the Products (Analisys and Report)
+Calculating Aging of the Products (Analysis and Report)
 
 # Objective: 
 Extrair os dados da base (SQL Server) do Cliente que estão em um servidor remoto e movê-los para uma stage area (MySQL), que também fica em outro servidor remoto. Ou seja, podemos dizer que tanto o data source quanto o data target estão na nuvem (cloud computing). Em seguida, tratar estes dados antes de movê-los para o repositório de data mart. E por fim efetuar o processamento de cálculo do aging, com base nos seguintes critérios: por Loja e por Cia.
