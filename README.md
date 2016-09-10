@@ -1,4 +1,4 @@
-# zinzane
+# Zinzane
 Calculating Aging of the Products (Analisys and Report)
 
 # Objective: 
@@ -15,3 +15,5 @@ O cálculo do aging consiste em determinar para cada peça armazenada no estoque
   * Python 2.7.x ou superior
   * Bibliotecas Python: pymssql, MySQLdb
 
+# How it works:
+Todo o ETL é construído em Python. Ainda usando o Python, depois que os dados são movimentados, tratados e enriquecidos eles são exportados do MySQL para uma planilha Excel. Esta planilha possui algumas macros que ajudam na sua navegação e também na análise das informações contidas. Estas informações são consumidas basicamente pelos analistas e estatístícos da área de planejamento e inteligência de mercado para obter insights.
