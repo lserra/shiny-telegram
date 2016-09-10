@@ -2,7 +2,7 @@
 Calculating Aging of the Products (Analisys and Report)
 
 # Objective: 
-Extrair os dados da base (SQL Server) do Cliente que estão em um servidor remoto e movê-los para uma stage area (MySQL), que também fica em em outro servidor remoto. Ou seja, podemos dizer que tanto o data source quanto o data target estão nas nuvens (cloud computing). Em seguida, tratar estes dados antes de movê-los para o repositório de data mart. E por fim efetuar o processamento de cálculo do aging, com base nos seguintes critérios: por Loja e por Cia.
+Extrair os dados da base (SQL Server) do Cliente que estão em um servidor remoto e movê-los para uma stage area (MySQL), que também fica em outro servidor remoto. Ou seja, podemos dizer que tanto o data source quanto o data target estão na nuvem (cloud computing). Em seguida, tratar estes dados antes de movê-los para o repositório de data mart. E por fim efetuar o processamento de cálculo do aging, com base nos seguintes critérios: por Loja e por Cia.
 
 # Description: 
 O cálculo do aging consiste em determinar para cada peça armazenada no estoque, há quanto tempo ela está armazenada. Para isso precisamos para cada SKU do estoque em cada loja da empresa, percorrer todos as entradas, da mais recente para a mais antiga, e identificar a data da entrada. Armazenamos a data da entrada e a quantidade de peças, assim desta forma conseguimos mostrar a informação do Aging em diversos níveis e formas distintas de agregação.
